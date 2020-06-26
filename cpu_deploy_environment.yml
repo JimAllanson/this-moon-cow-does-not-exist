@@ -1,0 +1,26 @@
+name: this_moon_cow_does_not_exist
+channels:
+  - stanfordnlp
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - beautifulsoup4>=4.8.2
+  - cryptography>=2.9.2
+  - google-auth>=1.14.1
+  - grpcio-tools>=1.16.1
+  - numpy>=1.18.1
+  - cpuonly>=1.0.0
+  - pandas>=1.0.2
+  - pip>=20.0.2
+  - pytorch>=1.4.0
+  - retry>=0.9.2
+  - scipy>=1.4.1
+  - stanza>=1.0.0
+  - torchvision>=0.2.1
+  - tqdm>=4.43.0
+  - tweepy>=3.8.0
+  - pip:
+    - transformers==2.8.0
+    - pyhyphen>=3.0.1
+    - grpcio>=1.28.1
